@@ -1,0 +1,85 @@
+0,Channel
+1,Last_Calibrated
+2,Last_Cal_Time
+3,duration
+4,humidity
+5,film temperature
+6,CO2 Cal Gas
+7,CalFile
+8,TYPE
+9,DATE
+10,Current
+11,cal_utc
+12,PCB
+13,C0d
+14,C6d
+15,(spare)
+16,C2V_size
+17,a2
+18,a3
+19,a4
+20,a5
+21,b2
+22,b3
+23,b4
+24,b5
+25,c2
+26,c3
+27,c4
+28,c5
+29,A
+30,B
+31,C
+32,D
+33,(spare)
+34,(spare)
+35,(spare)
+36,V2C_size
+37,a7
+38,a8
+39,a9
+40,a10
+41,b7
+42,b8
+43,b9
+44,b10
+45,c7
+46,c8
+47,c9
+48,c10
+49,A'
+50,B'
+51,C'
+52,D'
+53,(spare)
+54,(spare)
+55,(spare)
+56,V_RA_5
+57,V_RA_15
+58,mI
+59,I_span
+60,DAC
+61,V_0d_ImA (actual)
+62,V_6d_ImA (actual)
+63,V_0d_target
+64,V_6d_target
+65,Pump_Flow_rate
+66,Cal_Offset_adj
+67,Cal_Gain_adj
+68,(spare)
+69,last_zero_humidity
+70,last_zero_humidity
+71,Time Monitoring since last zero
+72,zero_utc
+73,Last_Zero'd
+74,Last_Zero_Time
+75,Number_of_Zeros
+76,V_0d_average
+77,V_Offset_adj
+78,V_Gain_adj
+79,Software Rev
+80,Sample Descriptor
+81,Chamber
+82,Operator
+83,Notes
+84,END

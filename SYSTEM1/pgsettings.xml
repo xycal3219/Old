@@ -1,0 +1,446 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>14.0.1f3</Version>
+<Cluster>
+<Name>Settings</Name>
+<NumElts>11</NumElts>
+<Path>
+<Name>Loaded Settings File</Name>
+<Val>C:\Users\PAHS\Google Drive\PAHS - Tech Dev\Consultants\LabView\LV_TestSystem\PAHS_Instrument_Jan_3_2016\SYSTEM1\pgsettings.xml</Val>
+</Path>
+<Cluster>
+<Name>Test Settings</Name>
+<NumElts>10</NumElts>
+<Boolean>
+<Name>Dual Channel</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Air Pump</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Optical Drive</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Pulsed Drive</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Calibration Mode</Name>
+<Val>0</Val>
+</Boolean>
+<U16>
+<Name>Test Sensor ID</Name>
+<Val>3</Val>
+</U16>
+<String>
+<Name>Test Chamber</Name>
+<Val>N/A</Val>
+</String>
+<String>
+<Name>Test Operator</Name>
+<Val>CAP</Val>
+</String>
+<String>
+<Name>Sample Descriptor</Name>
+<Val>CO2_Concentration_Test_S1_SYS1</Val>
+</String>
+<String>
+<Name>Notes</Name>
+<Val>Testing_continued_compare_to_system_1</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Calibration Settings</Name>
+<NumElts>18</NumElts>
+<String>
+<Name>Gas Conc. #0</Name>
+<Val></Val>
+</String>
+<SGL>
+<Name>Gas Conc. #7</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Gas Conc. #6</Name>
+<Val>8.00000</Val>
+</SGL>
+<SGL>
+<Name>Gas Conc. #5</Name>
+<Val>5.70000</Val>
+</SGL>
+<SGL>
+<Name>Gas Conc. #4</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Gas Conc. #3</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Gas Conc. #2</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Gas Conc. #1</Name>
+<Val>0.00000</Val>
+</SGL>
+<U16>
+<Name>Cal. Average</Name>
+<Val>2</Val>
+</U16>
+<Boolean>
+<Name>Cal Averaging</Name>
+<Val>0</Val>
+</Boolean>
+<SGL>
+<Name>Tolerance #0</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Tolerance #7</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Tolerance #6</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Tolerance #5</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Tolerance #4</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Tolerance #3</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Tolerance #2</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Tolerance #1</Name>
+<Val>0.00000</Val>
+</SGL>
+</Cluster>
+<Cluster>
+<Name>DataLogging Settings</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>Data File Path</Name>
+<Val>c:\data</Val>
+</Path>
+<SGL>
+<Name>Data File Duration (Minutes)</Name>
+<Val>30.00000</Val>
+</SGL>
+<String>
+<Name>Log Filename</Name>
+<Val>Test Log.csv</Val>
+</String>
+<Path>
+<Name>Config Path</Name>
+<Val>C:\Users\PAHS\Google Drive\PAHS - Tech Dev\Consultants\LabView\LV_TestSystem\PAHS_Instrument_Jan_3_2016\SYSTEM1</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>DAQx Settings</Name>
+<NumElts>4</NumElts>
+<DAQChannel>
+<Name>DAQ Device</Name>
+<Val>USBXDAQ</Val>
+</DAQChannel>
+<DBL>
+<Name>Frequency</Name>
+<Val>40.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Duty Cycle</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<Array>
+<Name>Analog Output Settings (Volts)</Name>
+<Dimsize>5</Dimsize>
+<SGL>
+<Name>AO.Max</Name>
+<Val>1.11912E-2</Val>
+</SGL>
+<SGL>
+<Name>AO.Max</Name>
+<Val>1.50844E-2</Val>
+</SGL>
+<SGL>
+<Name>AO.Max</Name>
+<Val>1.45254E-2</Val>
+</SGL>
+<SGL>
+<Name>AO.Max</Name>
+<Val>1.44301E-2</Val>
+</SGL>
+<SGL>
+<Name>AO.Max</Name>
+<Val>3.78684E-2</Val>
+</SGL>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Capnometer Configuration</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>Serial Port</Name>
+<NumElts>14</NumElts>
+<U8>
+<Name>termination char</Name>
+<Val>10</Val>
+</U8>
+<Boolean>
+<Name>End read on termination character?</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val>COM4</Val>
+</Refnum>
+<U32>
+<Name>baud rate</Name>
+<Val>19200</Val>
+</U32>
+<U16>
+<Name>data bits</Name>
+<Val>8</Val>
+</U16>
+<EW>
+<Name>parity</Name>
+<Choice>None</Choice>
+<Choice>Odd</Choice>
+<Choice>Even</Choice>
+<Choice>Mark</Choice>
+<Choice>Space</Choice>
+<Val>0</Val>
+</EW>
+<U16>
+<Name>stop bits</Name>
+<Val>10</Val>
+</U16>
+<U16>
+<Name>flow control</Name>
+<Val>0</Val>
+</U16>
+<U32>
+<Name>timeout (ms)</Name>
+<Val>10000</Val>
+</U32>
+<U32>
+<Name>Input buffer size</Name>
+<Val>4096</Val>
+</U32>
+<Boolean>
+<Name>End write on termination character?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>XON Char</Name>
+<Val>17</Val>
+</U8>
+<U8>
+<Name>XOFF Char</Name>
+<Val>19</Val>
+</U8>
+</Cluster>
+<U32>
+<Name>Baro Pressure</Name>
+<Val>760</Val>
+</U32>
+<U16>
+<Name>Device</Name>
+<Val>2</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>TE#1 Configuration</Name>
+<NumElts>2</NumElts>
+<SGL>
+<Name>Temp Set Point</Name>
+<Val>-1.00000</Val>
+</SGL>
+<Cluster>
+<Name>Serial Port</Name>
+<NumElts>14</NumElts>
+<U8>
+<Name>termination char</Name>
+<Val>17</Val>
+</U8>
+<Boolean>
+<Name>End read on termination character?</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val>COM12</Val>
+</Refnum>
+<U32>
+<Name>baud rate</Name>
+<Val>9600</Val>
+</U32>
+<U16>
+<Name>data bits</Name>
+<Val>8</Val>
+</U16>
+<EW>
+<Name>parity</Name>
+<Choice>None</Choice>
+<Choice>Odd</Choice>
+<Choice>Even</Choice>
+<Choice>Mark</Choice>
+<Choice>Space</Choice>
+<Val>0</Val>
+</EW>
+<U16>
+<Name>stop bits</Name>
+<Val>10</Val>
+</U16>
+<U16>
+<Name>flow control</Name>
+<Val>0</Val>
+</U16>
+<U32>
+<Name>timeout (ms)</Name>
+<Val>10000</Val>
+</U32>
+<U32>
+<Name>Input buffer size</Name>
+<Val>4096</Val>
+</U32>
+<Boolean>
+<Name>End write on termination character?</Name>
+<Val>1</Val>
+</Boolean>
+<U8>
+<Name>XON Char</Name>
+<Val>17</Val>
+</U8>
+<U8>
+<Name>XOFF Char</Name>
+<Val>19</Val>
+</U8>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>TE#2 Configuration</Name>
+<NumElts>2</NumElts>
+<SGL>
+<Name>Temp Set Point</Name>
+<Val>-1.00000</Val>
+</SGL>
+<Cluster>
+<Name>Serial Port</Name>
+<NumElts>14</NumElts>
+<U8>
+<Name>termination char</Name>
+<Val>10</Val>
+</U8>
+<Boolean>
+<Name>End read on termination character?</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Enabled?</Name>
+<Val>1</Val>
+</Boolean>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val>COM13</Val>
+</Refnum>
+<U32>
+<Name>baud rate</Name>
+<Val>9600</Val>
+</U32>
+<U16>
+<Name>data bits</Name>
+<Val>8</Val>
+</U16>
+<EW>
+<Name>parity</Name>
+<Choice>None</Choice>
+<Choice>Odd</Choice>
+<Choice>Even</Choice>
+<Choice>Mark</Choice>
+<Choice>Space</Choice>
+<Val>0</Val>
+</EW>
+<U16>
+<Name>stop bits</Name>
+<Val>10</Val>
+</U16>
+<U16>
+<Name>flow control</Name>
+<Val>0</Val>
+</U16>
+<U32>
+<Name>timeout (ms)</Name>
+<Val>10000</Val>
+</U32>
+<U32>
+<Name>Input buffer size</Name>
+<Val>4096</Val>
+</U32>
+<Boolean>
+<Name>End write on termination character?</Name>
+<Val>1</Val>
+</Boolean>
+<U8>
+<Name>XON Char</Name>
+<Val>17</Val>
+</U8>
+<U8>
+<Name>XOFF Char</Name>
+<Val>19</Val>
+</U8>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Runtime Settings</Name>
+<NumElts>4</NumElts>
+<SGL>
+<Name>InspSetTime</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>ExpSetTime</Name>
+<Val>0.00000</Val>
+</SGL>
+<U8>
+<Name>Exp. Gas Tank</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Insp. Gas Tank</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+<U16>
+<Name>Chart X axis Timescale</Name>
+<Val>20</Val>
+</U16>
+<U16>
+<Name>Pump</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</LVData>
